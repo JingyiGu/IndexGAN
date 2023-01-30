@@ -1,5 +1,7 @@
 # IndexGAN
 
+Implementation of 'Learning Stock Broad-Index Trend Patterns via Domain Knowledged-Informed Generative Network.'
+
 ## Train the model 
 ### Step 1: Install the packages
 * python 3.9.6
