@@ -1,0 +1,20 @@
+{
+  "model": "IndexGAN",
+  "data": "dji",
+  "seq_len": 35,
+  "batch_size": 32,
+  "lr_D": 5e-05,
+  "lr_G": 0.0001,
+  "future_step": 5,
+  "num_epochs": 100,
+  "glove_dim": 50,
+  "enc_size": 100,
+  "dec_size": 200,
+  "w2v_size": 6,
+  "clip_value": 0.01,
+  "entropy_penalty": 1,
+  "mae_penalty": 10,
+  "weight_acc_penalty": 3,
+  "freq": 5,
+  "test_epochs": 10
+}
