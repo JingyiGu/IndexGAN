@@ -1,6 +1,6 @@
 # IndexGAN
 
-Implementation of 'Learning Stock Broad-Index Trend Patterns via Domain Knowledged-Informed Generative Network.'
+Implementation of "Stock Broad-Index Trend Patterns Learning via Domain Knowledge Informed Generative Network."
 
 ## Train the model 
 ### Step 1: Install the packages
