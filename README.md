@@ -44,7 +44,7 @@ python ./code/train.py \
     --freq 7
 ```
 
-# Citation
+## Citation
 If you use this code for your research, please kindly cite our paper:
 ```
 @article{gu2023stock,
