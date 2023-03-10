@@ -25,9 +25,32 @@ The models with best performance: ./saved_model/data/final_model.pth
 Corresponding parameters: ./saved_model_data/args.txt
 #### DJI
 ```Python
-python ./code/train.py --data dji --num_epochs 100 --enc_size 100 --dec_size 200 --w2v_size 6 --freq 5
+python ./code/train.py \ 
+    --data dji \
+    --num_epochs 100 \
+    --enc_size 100 \
+    --dec_size 200 \
+    --w2v_size 6 \
+    --freq 5
 ```
 #### SPX
 ```Python
-python ./code/train.py --data spx --num_epochs 80 --enc_size 100 --dec_size 50 --w2v_size 3 --freq 7
+python ./code/train.py \
+    --data spx \
+    --num_epochs 80 \
+    --enc_size 100 \
+    --dec_size 50 \
+    --w2v_size 3 \
+    --freq 7
+```
+
+# Citation
+If you use this code for your research, please kindly cite our paper:
+```
+@article{gu2023stock,
+  title={Stock Broad-Index Trend Patterns Learning via Domain Knowledge Informed Generative Network},
+  author={Gu, Jingyi and Deek, Fadi P and Wang, Guiling},
+  journal={arXiv preprint arXiv:2302.14164},
+  year={2023}
+}
 ```
